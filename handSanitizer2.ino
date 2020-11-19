@@ -23,7 +23,7 @@ const int motorPin = 3;
 const int irAnalogPin = 0;
 
 //This changes the trip point, the bigger this is, the more sensitive
-const float percentChange = 10.0;
+const float percentChange = 20.0;
 
 //variables
 int pastReadings[20];//running avg of steady state, so we have something to compare against
