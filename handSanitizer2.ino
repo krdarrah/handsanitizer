@@ -100,7 +100,7 @@ void loop() {
 
       //fire up the motor!
       digitalWrite(motorPin, HIGH);
-      delay(500);// how long to keep on for
+      delay(1000);// how long to keep on for
       digitalWrite(motorPin, LOW);
     }
 
